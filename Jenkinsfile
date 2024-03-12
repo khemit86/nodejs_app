@@ -6,6 +6,7 @@ pipeline {
         bat 'node -v'
         bat 'npm -v'
         bat 'npm install'
+        bat 'node index.js'
       }
     }
     
