@@ -12,7 +12,7 @@ pipeline {
     
     stage('Test') {
       steps {
-        batch 'npm run test'
+        bat 'npm run test'
         echo 'Testing'
       }
     }
